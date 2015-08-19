@@ -22,7 +22,7 @@ print "Environment set"
 ## Execute Zonal statistics as table for each mask (year)
 # Set Mask environment
 
-myfiles = r'H:\Confiance_WRI\COD_tcl_30\masks_list.txt'
+myfiles = r'H:\Confiance_WRI\COD_tcl_30\DRC_tcl_Stats_30\Mask_List.txt'
 mymasks = open(myfiles, 'r')
 print "Reading raster list successful"
 

@@ -22,7 +22,7 @@ print "Environment set"
 ## Execute Zonal statistics as table for each mask (year)
 # Set Mask environment
 
-myfiles = r'H:\Confiance_WRI\COD_tcl_30\masks_list.txt'
+myfiles = r'H:\Confiance_WRI\COD_tcl_30\DRC_tcl_Stats_30\Mask_List.txt'
 mymasks = open(myfiles, 'r')
 print "Reading raster list successful"
 
@@ -55,7 +55,7 @@ print "Zonal stats successful for Protected Areas!"
 print "Entering stats for logging concessions"
 
 # Set Mask environment
-myfiles = r'H:\Confiance_WRI\COD_tcl_30\masks_list.txt'
+myfiles = r'H:\Confiance_WRI\COD_tcl_30\DRC_tcl_Stats_30\Mask_List.txt'
 mymasks = open(myfiles, 'r')
 print "Reading raster list successful"
 
@@ -88,7 +88,7 @@ print "Zonal stats successful for logging concessions!"
 print "Entering stats for Supply centers"
 
 # Set Mask environment
-myfiles = r'H:\Confiance_WRI\COD_tcl_30\masks_list.txt'
+myfiles = r'H:\Confiance_WRI\COD_tcl_30\DRC_tcl_Stats_30\Mask_List.txt'
 mymasks = open(myfiles, 'r')
 print "Reading raster list successful"
 
@@ -122,7 +122,7 @@ print "Zonal stats successful for supply centers!"
 print "Entering stats for Old provinces"
 
 # Zonal stats on Old Provinces
-myfiles = r'H:\Confiance_WRI\COD_tcl_30\masks_list.txt'
+myfiles = r'H:\Confiance_WRI\COD_tcl_30\DRC_tcl_Stats_30\Mask_List.txt'
 mymasks = open(myfiles, 'r')
 print "Reading raster list successful"
 
@@ -155,7 +155,7 @@ print "Zonal stats successful for old provinces!"
 print "Entering stats for new provinces"
 
 # Zonal stats on New Provinces
-myfiles = r'H:\Confiance_WRI\COD_tcl_30\masks_list.txt'
+myfiles = r'H:\Confiance_WRI\COD_tcl_30\DRC_tcl_Stats_30\Mask_List.txt'
 mymasks = open(myfiles, 'r')
 print "Reading raster list successful"
 
